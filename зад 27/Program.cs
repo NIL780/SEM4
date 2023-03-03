@@ -4,19 +4,30 @@
 // 82 -> 10
 // 9012 -> 12
 Console.Clear();
-int Prompt(string message)
-{System.Console.Write(message);
-string readInput =System.Console.ReadLine();
-int result=int.Parse(readInput);
-return result;}
-int SumAllDigital(int number)
-{int result=0;
-while (number>0)
-{result+=number%10;
-number=number%10;}
-return result;}
-int number=Prompt("Введите число");
-System.Console.WriteLine($"({SumAllDigital(number)})");
+Console.Write("Введите число: ");
+n=Convert.ToInt32(Console.ReadLine());
+result=0;
+while (n!=0)
+{result+= n %10;
+n/=10;}
+Console.WriteLine($"{result}");
+
+
+// int Prompt(string message)
+// {System.Console.Write(message);
+// string readInput =System.Console.ReadLine();
+// int result=int.Parse(readInput);
+// return result;}
+// int SumAllDigital(int number)
+// {int result=0;
+// while (number>0)
+// {result+=number%10;
+// number=number%10;}
+// return result;}
+// int number=Prompt("Введите число");
+// System.Console.WriteLine($"({SumAllDigital(number)})");
+
+
 
 //int Length= number.Length;
 // char i=number[Length];
