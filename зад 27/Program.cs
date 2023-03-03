@@ -13,6 +13,32 @@ n/=10;}
 Console.WriteLine($"{result}");
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // int Prompt(string message)
 // {System.Console.Write(message);
 // string readInput =System.Console.ReadLine();
