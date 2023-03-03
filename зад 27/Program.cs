@@ -15,6 +15,3 @@ double power=numB;
 int result= Convert.ToInt32(Math.Pow(n,power));
 {Console.WriteLine(result);}
 
-// int ReadLine (string message)
-// {Console.WriteLine(message);
-// return Convert.ToInt32(Console.ReadLine());}
